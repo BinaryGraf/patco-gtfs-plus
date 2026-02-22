@@ -1,0 +1,13 @@
+{
+  "name": "patco-timetable",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "update": "node scripts/update-schedule.js",
+    "serve": "npx serve site"
+  },
+  "dependencies": {
+    "pdfjs-dist": "^4.8.69"
+  }
+}

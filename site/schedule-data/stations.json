@@ -1,0 +1,16 @@
+[
+  { "display": "Lindenwold", "name": "lindenwold", "lat": 39.833962, "long": -75.000664, "state": "NJ", "url": "https://www.ridepatco.org/stations/lindenwold.asp" },
+  { "display": "Ashland", "name": "ashland", "lat": 39.858705, "long": -75.00921, "state": "NJ", "url": "https://www.ridepatco.org/stations/ashland.asp" },
+  { "display": "Woodcrest", "name": "woodcrest", "lat": 39.870263, "long": -75.011242, "state": "NJ", "url": "https://www.ridepatco.org/stations/woodcrest.asp" },
+  { "display": "Haddonfield", "name": "haddonfield", "lat": 39.89764, "long": -75.037141, "state": "NJ", "url": "https://www.ridepatco.org/stations/haddonfield.asp" },
+  { "display": "Westmont", "name": "westmont", "lat": 39.90706, "long": -75.046553, "state": "NJ", "url": "https://www.ridepatco.org/stations/westmont.asp" },
+  { "display": "Collingswood", "name": "collingswood", "lat": 39.91359, "long": -75.06456, "state": "NJ", "url": "https://www.ridepatco.org/stations/collingswood.asp" },
+  { "display": "Ferry Ave", "name": "ferry-ave", "lat": 39.922572, "long": -75.091805, "state": "NJ", "url": "https://www.ridepatco.org/stations/ferryave.asp" },
+  { "display": "Broadway", "name": "broadway", "lat": 39.943135, "long": -75.120364, "state": "NJ", "url": "https://www.ridepatco.org/stations/broadway.asp" },
+  { "display": "City Hall", "name": "city-hall", "lat": 39.945469, "long": -75.121242, "state": "NJ", "url": "https://www.ridepatco.org/stations/cityhall.asp" },
+  { "display": "Franklin Square", "name": "franklin-square", "lat": 39.955298, "long": -75.151157, "state": "PA", "url": "https://www.ridepatco.org/stations/franklinsquare.asp" },
+  { "display": "8th & Market", "name": "8th-market", "lat": 39.950979, "long": -75.153515, "state": "PA", "url": "https://www.ridepatco.org/stations/8th.asp" },
+  { "display": "9-10th & Locust", "name": "9-10th-locust", "lat": 39.947345, "long": -75.15751, "state": "PA", "url": "https://www.ridepatco.org/stations/9th.asp" },
+  { "display": "12-13th & Locust", "name": "12-13th-locust", "lat": 39.947944, "long": -75.162365, "state": "PA", "url": "https://www.ridepatco.org/stations/12th.asp" },
+  { "display": "15-16th & Locust", "name": "15-16th-locust", "lat": 39.948634, "long": -75.167792, "state": "PA", "url": "https://www.ridepatco.org/stations/15th.asp" }
+]

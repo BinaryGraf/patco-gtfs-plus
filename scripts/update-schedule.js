@@ -9,7 +9,7 @@ import { fetchGtfsEffectiveDate, fetchSpecialSchedules } from './lib/schedule-ch
 import { downloadAndParsePdf, extractDateFromPdfUrl } from './lib/pdf-parser.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const DATA_DIR = join(__dirname, '..', 'site', 'data');
+const DATA_DIR = join(__dirname, '..', 'site', 'schedule-data');
 const TEMP_DIR = join(__dirname, '..', 'temp');
 const METADATA_PATH = join(DATA_DIR, 'metadata.json');
 const GTFS_SCHEDULE_PATH = join(DATA_DIR, 'gtfs_schedule.json');

@@ -4,7 +4,7 @@ import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const stations = JSON.parse(readFileSync(join(__dirname, '../../site/data/stations.json'), 'utf-8'));
+const stations = JSON.parse(readFileSync(join(__dirname, '../../site/schedule-data/stations.json'), 'utf-8'));
 
 // stations.json is ordered Lindenwold → 15-16th-locust (westbound direction)
 const WESTBOUND_STATIONS = stations.map(s => s.name);

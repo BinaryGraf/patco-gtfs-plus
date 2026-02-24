@@ -9,7 +9,7 @@ import { fetchGtfsEffectiveDate, fetchSpecialSchedules } from './lib/schedule-ch
 import { downloadAndParsePdf, extractDateFromPdfUrl } from './lib/pdf-parser.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const DATA_DIR = join(__dirname, '..', 'site', 'schedule-data');
+const DATA_DIR = join(__dirname, '..', 'public', 'schedule-data');
 const TEMP_DIR = join(__dirname, '..', 'temp');
 const METADATA_PATH = join(DATA_DIR, 'metadata.json');
 const GTFS_SCHEDULE_PATH = join(DATA_DIR, 'gtfs_schedule.json');
@@ -72,7 +72,7 @@ async function checkAndUpdateGtfs(metadata) {
   return true;
 }
 
-async function checkAndUpdateSpecialSchedules(metadata) {
+async function checkAndUpdateSpecialSchedules() {
   console.log('Checking for special schedule PDFs...');
   const entries = await fetchSpecialSchedules();
   console.log(`Found ${entries.length} special schedule(s) on site`);
